@@ -1,0 +1,25 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+faiss-cpu = "*"
+pypdf = "*"
+huggingface-hub = "*"
+streamlit = "*"
+langchain-groq = "*"
+dill = "*"
+langchain = "*"
+langchain-community = "*"
+langchain-huggingface = "*"
+torch = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+
+[pipenv]
+allow_prereleases = true
